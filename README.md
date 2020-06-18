@@ -17,7 +17,7 @@ You can change “topic_name ” and “subscription_name” with your own names
 Now, create a registry by going to IoT core in your console. Give an id to the registry and choose the nearest region and make sure you select the right topic. 
 And in advanced option make sure you have MQTT selected.
 <p align="center">
-  <img src="registry.jpg">
+  <img src="registry.png">
 </p>
 
 Now go to the created registry and go to devices. Create a device and give it device id.
@@ -30,7 +30,7 @@ Now open the public key in a text editor and copy paste the public key including
 ### Creating a service account
 Now create a service account by navigating into the IAM and admin section. Give a name to the service account and give cloud IoT admin and pubsub admin roles.
 <p align="center">
-  <img src="service account.jpg">
+  <img src="service account.png">
 </p>
 Before completing creation of service account create key and save in your computer in json format.
 Transfer this service account key to your raspberry pi.
