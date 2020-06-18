@@ -3,7 +3,7 @@ This repository is to know how to connect your raspberry pi to google cloud IoT 
 
 ## Steps
 ### Creating topic and subscription in pubsub
-Enable the google cloud iot core api and cloud pubsub api in your GCP console. Now you have to create pubsub topic and subscription
+Enable the google cloud iot core api and pubsub api in your GCP console. Now you have to create pubsub topic and subscription
 To create topic, open your cloud shell
 ```
 gcloud pubsub topics create topic_name
