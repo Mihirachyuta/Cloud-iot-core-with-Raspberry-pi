@@ -12,3 +12,6 @@ To create subscription to the topic
 ```
 gcloud pubsub subscriptions create –topic topic_name subscription_name
 ```
+You can change “topic_name ” and “subscription_name” with your own names.
+### Creating regisstry and device in IoT Core
+Now, create a registry by going to IoT core in your console. Give an id to the registry and choose the nearest region and make sure you select the right topic. 
