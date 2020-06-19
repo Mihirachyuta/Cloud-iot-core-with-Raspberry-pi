@@ -70,5 +70,7 @@ python3 demo.py
 Open subscription in pubsub, then open view messages and click pull.
 You must see the “hello world” message we sent.
 ### Sending your own data
-You can refer the rpi-gcp fie to see and send data in json format.
+You can refer the rpi-gcp fie to see and send data in json format. This is continuation of [Connecting arduino to Rpi with I2C](https://github.com/Mihirachyuta/Connecting-arduino-to-raspberry-pi-with-i2c).
+### Getting from cloud
+You can refer the file get-config which has an example to show how to set intensity of an LED light.
 
