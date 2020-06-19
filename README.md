@@ -69,4 +69,6 @@ python3 demo.py
 ```
 Open subscription in pubsub, then open view messages and click pull.
 You must see the “hello world” message we sent.
+### Sending your own data
+You can refer the rpi-gcp fie to see and send data in json format.
 
